@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Weather_and_exchange_rates">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/json-20210307.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jsoup-1.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

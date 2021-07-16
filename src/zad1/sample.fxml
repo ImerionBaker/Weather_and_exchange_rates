@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="774.0" prefWidth="1434.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zad1.Service">
+    <children>
+        <AnchorPane prefHeight="95.0" prefWidth="273.0" style="-fx-background-color: #000000;">
+            <children>
+                <Text fill="WHITE" layoutX="57.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather">
+                    <font>
+                        <Font name="Galvji" size="37.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <Button id="getData" fx:id="getData" layoutX="86.0" layoutY="193.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" text="Put" />
+        <Text fx:id="temp_info" fill="#fffefe" layoutX="7.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature:" wrappingWidth="257.8896484375">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Text fx:id="temp_feels" fill="#fffefe" layoutX="8.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feels like:" wrappingWidth="222.0849609375">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Text fx:id="temp_max" fill="#fffefe" layoutX="9.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max:" wrappingWidth="215.3544921875">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Text fx:id="temp_min" fill="#fffefe" layoutX="9.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min:" wrappingWidth="215.3544921875">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Text fx:id="pressure" fill="#fffefe" layoutX="8.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pressure:" wrappingWidth="215.3544921875">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <TextField fx:id="city" layoutX="16.0" layoutY="120.0" prefHeight="44.0" prefWidth="235.0" promptText="input town">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <WebView fx:id="browse" layoutX="268.0" layoutY="2.0" prefHeight="773.0" prefWidth="1168.0" />
+        <AnchorPane layoutX="-7.0" layoutY="436.0" prefHeight="95.0" prefWidth="273.0" style="-fx-background-color: #000000;">
+            <children>
+                <Text fill="WHITE" layoutX="43.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency">
+                    <font>
+                        <Font name="Galvji" size="37.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+      <Text fx:id="currency_pln" fill="#fffefe" layoutX="5.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency to PLN:" wrappingWidth="257.8896484375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="valute" layoutX="60.0" layoutY="636.0" prefHeight="44.0" prefWidth="137.0" promptText="inpute valute">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="currency" fill="#fffefe" layoutX="7.0" layoutY="718.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency:" wrappingWidth="244.58790665946287">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
